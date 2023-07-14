@@ -27,11 +27,11 @@ pluginManagement {
 
 **STEP 2 -> Add to your build.gradle file (.app):** (replce with specific tag)
 ```
-	dependencies {
-          ...
-	        'com.github.GalShamir8:CsvToPdfConvertor:Tag'
-          ...
-	}
+dependencies {
+  ...
+	'com.github.GalShamir8:CsvToPdfConvertor:Tag'
+  ...
+}
 ```
 Click the "Sync Now" button to sync the Gradle project.
 Ready to Go!
