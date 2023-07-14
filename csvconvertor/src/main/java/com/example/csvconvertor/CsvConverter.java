@@ -13,8 +13,8 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
-import java.io.FileReader;
 import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.ArrayList;
 
 public class CsvConverter {
@@ -49,7 +49,9 @@ public class CsvConverter {
 
     public boolean convertCsvToPdf() {
         try {
-            BufferedReader reader = new BufferedReader(new FileReader(filePath));
+            BufferedReader reader = new BufferedReader(
+                    new InputStreamReader(context.getAssets().open(filePath))
+            );
 
             Document document = initPdfFile();
             document.open();
