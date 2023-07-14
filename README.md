@@ -65,6 +65,6 @@ Note to handle file IOException using `csvConverter.getErrors()` if needed.
 We appreciate your feedback and contributions to enhance the library. 
 If you encounter any issues or have suggestions for improvements, please open an issue on the [GitHub repository](https://github.com/GalShamir8/CsvToPdfConvertor/issues).
 We welcome contributions!
-If you would like to contribute to the project, please check out the [contribution guidelines](https://github.com/GalShamir8/CsvToPdfConvertor/blob/v1.0/CONTRIBUTING.md).
+If you would like to contribute to the project, please check out the [contribution guidelines](https://github.com/GalShamir8/CsvToPdfConvertor/blob/master/CONTRIBUTING.md).
 
 Thank you for using the CSV to PDF Converter Library. We hope it simplifies your CSV to PDF conversion needs in your Android projects!
