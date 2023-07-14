@@ -10,7 +10,7 @@ import java.io.File;
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
-    private final String FILE_PATH = "test.csv";
+    private final String FILE_PATH = "path/to/test.csv";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
