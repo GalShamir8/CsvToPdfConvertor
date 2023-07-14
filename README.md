@@ -45,11 +45,15 @@ To convert a CSV file to a PDF document, follow these steps:
 ```java
 CsvConverter csvConverter = new CsvConverter(getApplicationContext(), FILE_PATH);        
 ```
-2. Call the `convertCsvToPdf()` method and provide the file path of the CSV file:
+2. Set a csv delimiter id needed (default is "," ):
+``` java
+csvConverter.setDelimiter(MY_DELIMITER);
+```
+3. Call the `convertCsvToPdf()` method:
 ```java
 boolean success = csvConverter.convertCsvToPdf();
 ```
-3. Handle the generated PDF file as needed. You can open it using an external PDF viewer or perform further operations on the file.
+4. Handle the generated PDF file as needed. You can open it using an external PDF viewer or perform further operations on the file.
 Note to handle file IOException using `csvConverter.getErrors()` if needed.
 ```java
   if (success) {
